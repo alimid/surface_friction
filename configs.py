@@ -38,6 +38,6 @@ num_round_clas = 204
 # Parameters for XGBoost regression done prior to calculating SHAP values
 learning_rate_reg = 0.03
 min_split_loss_reg = 0.02
-reg_lambda_reg = 0.87
+reg_lambda_reg = 9.87
 subsample_reg = 0.85
 num_round_reg = 162
