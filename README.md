@@ -5,4 +5,4 @@ The scripts are used for the calculations done in this preprint: https://arxiv.o
 
 The finished trained and tuned regression model and classification model are availalbe as JSON files. 
 
-Please reach out alisedm@math.uio.no if you have any questions. 
+Please reach out to alisedm@math.uio.no if you have any questions. 
