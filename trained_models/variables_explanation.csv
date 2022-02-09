@@ -1,0 +1,152 @@
+Variable;Type;Meaning;Unit;Hours since measurement
+pcpint;float64;Precipitation intensity ;mm/hour;0
+tmp;float64;Air temperature;Celsius;0
+qnh;float64;Air pressure ;hPa;0
+hum;float64;Relative humidity;%;0
+dp;float64;Dew point;Celsius;0
+rwy;float64;Runway temperature;Celsius;0
+rvr;float64;Horizontal Visibility;Meter;0
+oeye_1hour;float64;Precipitation type lag;0-10;1
+oeye_6hour;float64;Precipitation type lag;0-10;6
+oeye_12hour;float64;Precipitation type lag;0-10;12
+oeye_24hour;float64;Precipitation type lag;0-10;24
+pcpint_1hour;float64;Precipitation intensity lag;mm/hour;1
+pcpint_3hour;float64;Precipitation intensity lag;mm/hour;3
+pcpint_6hour;float64;Precipitation intensity lag;mm/hour;6
+pcpint_12hour;float64;Precipitation intensity lag;mm/hour;12
+pcpint_24hour;float64;Precipitation intensity lag;mm/hour;24
+tmp_1hour;float64;Air temperature lag;Celsius;1
+tmp_3hour;float64;Air temperature lag;Celsius;3
+tmp_6hour;float64;Air temperature lag;Celsius;6
+tmp_12hour;float64;Air temperature lag;Celsius;12
+tmp_24hour;float64;Air temperature lag;Celsius;24
+qnh_1hour;float64;Air pressure lag;hPa;1
+qnh_3hour;float64;Air pressure lag;hPa;3
+qnh_6hour;float64;Air pressure lag;hPa;6
+qnh_12hour;float64;Air pressure lag;hPa;12
+qnh_24hour;float64;Air pressure lag;hPa;24
+hum_1hour;float64;Relative humidity lag;%;1
+hum_3hour;float64;Relative humidity lag;%;3
+hum_6hour;float64;Relative humidity lag;%;6
+hum_12hour;float64;Relative humidity lag;%;12
+hum_24hour;float64;Relative humidity lag;%;24
+dp_1hour;float64;Dew point lag;Celsius;1
+dp_3hour;float64;Dew point lag;Celsius;3
+dp_6hour;float64;Dew point lag;Celsius;6
+dp_12hour;float64;Dew point lag;Celsius;12
+dp_24hour;float64;Dew point lag;Celsius;24
+rwy_1hour;float64;Runway temperature lag;Celsius;1
+rwy_3hour;float64;Runway temperature lag;Celsius;3
+rwy_6hour;float64;Runway temperature lag;Celsius;6
+rwy_12hour;float64;Runway temperature lag;Celsius;12
+rwy_24hour;float64;Runway temperature lag;Celsius;24
+rvr_1hour;float64;Horizontal Visibility lag;Meter;1
+rvr_3hour;float64;Horizontal Visibility lag;Meter;3
+rvr_6hour;float64;Horizontal Visibility lag;Meter;6
+rvr_12hour;float64;Horizontal Visibility lag;Meter;12
+rvr_24hour;float64;Horizontal Visibility lag;Meter;24
+qnh_diff_1hour;float64;Air pressure difference;hPa;0-1
+qnh_diff_3hour;float64;Air pressure difference;hPa;0-3
+qnh_diff_6hour;float64;Air pressure difference;hPa;0-6
+qnh_diff_12hour;float64;Air pressure difference;hPa;0-12
+qnh_diff_24hour;float64;Air pressure difference;hPa;0-24
+hum_diff_1hour;float64;Relative humidity difference;%;0-1
+hum_diff_3hour;float64;Relative humidity difference;%;0-3
+hum_diff_6hour;float64;Relative humidity difference;%;0-6
+hum_diff_12hour;float64;Relative humidity difference;%;0-12
+hum_diff_24hour;float64;Relative humidity difference;%;0-24
+rwy_diff_1hour;float64;Runway temperature difference;Celsius;0-1
+rwy_diff_3hour;float64;Runway temperature difference;Celsius;0-3
+rwy_diff_6hour;float64;Runway temperature difference;Celsius;0-6
+rwy_diff_12hour;float64;Runway temperature difference;Celsius;0-12
+rwy_diff_24hour;float64;Runway temperature difference;Celsius;0-24
+ds;float64;Dry snow intensity;mm/hour;0
+ws;float64;Wet snow intensity;mm/hour;0
+sl;float64;Sleet intensity;mm/hour;0
+ra;float64;Rain intensity;mm/hour;0
+accum_ra_1hour;float64;Accumulated rain;mm;1
+accum_ra_3hour;float64;Accumulated rain;mm;3
+accum_ra_6hour;float64;Accumulated rain;mm;6
+accum_ra_12hour;float64;Accumulated rain;mm;12
+accum_ra_24hour;float64;Accumulated rain;mm;24
+accum_sl_1hour;float64;Accumulated sleet;mm;1
+accum_sl_3hour;float64;Accumulated sleet;mm;3
+accum_sl_6hour;float64;Accumulated sleet;mm;6
+accum_sl_12hour;float64;Accumulated sleet;mm;12
+accum_sl_24hour;float64;Accumulated sleet;mm;24
+accum_ws_1hour;float64;Accumulated wet snow;mm;1
+accum_ws_3hour;float64;Accumulated wet snow;mm;3
+accum_ws_6hour;float64;Accumulated wet snow;mm;6
+accum_ws_12hour;float64;Accumulated wet snow;mm;12
+accum_ws_24hour;float64;Accumulated wet snow;mm;24
+accum_ds_1hour;float64;Accumulated dry snow;mm;1
+accum_ds_3hour;float64;Accumulated dry snow;mm;3
+accum_ds_6hour;float64;Accumulated dry snow;mm;6
+accum_ds_12hour;float64;Accumulated dry snow;mm;12
+accum_ds_24hour;float64;Accumulated dry snow;mm;24
+warmsand;float64;Presence of warm sand;Binary;0
+sand;float64;Presence of sand ;Binary;0
+deice;float64;Presence of deice;Binary;0
+aice;float64;Presence of aice ;Binary;0
+depth;float64;Contamination depth;mm;0
+aerodrome;int64;Runway;Binary;0
+depos_0.0;int64;Contamination bare and dry;Binary;0
+depos_1.0;int64;Contamination damp;Binary;0
+depos_2.0;int64;Contamination wet;Binary;0
+depos_3.0;int64;Contamination rime;Binary;0
+depos_4.0;int64;Contamination dry snow;Binary;0
+depos_5.0;int64;Contamination wet snow;Binary;0
+depos_6.0;int64;Contamination slush;Binary;0
+depos_7.0;int64;Contamination ice;Binary;0
+depos_8.0;int64;Contamination compacted or rolled snow;Binary;0
+depos_9.0;int64;Contamination frozen ruts or ridges;Binary;0
+depos_27.0;int64;Contamination wet ice;Binary;0
+depos_28.0;int64;Contamination wet compacted or rolled snow;Binary;0
+depos_29.0;int64;Contamination wet frozen ruts or ridges;Binary;0
+depos_37.0;int64;Contamination rime on ice;Binary;0
+depos_39.0;int64;Contamination rime on frozen ruts or ridges;Binary;0
+depos_47.0;int64;Contamination dry snow on ice;Binary;0
+depos_48.0;int64;Contamination dry snow on compacted or rolled snow;Binary;0
+depos_49.0;int64;Contamination dry snow on frozen ruts or ridges;Binary;0
+depos_57.0;int64;Contamination wet snow on ice;Binary;0
+depos_58.0;int64;Contamination wet snow on compacted or rolled snow;Binary;0
+depos_59.0;int64;Contamination wet snow on frozen ruts or ridges;Binary;0
+depos_67.0;int64;Contamination slush on ice;Binary;0
+depos_69.0;int64;Contamination slush on frozen ruts or ridges;Binary;0
+depos_78.0;int64;Contamination ice on compacted or rolled snow;Binary;0
+depos_79.0;int64;Contamination ice on frozen ruts og ridges;Binary;0
+depos_279.0;int64;Contamination wet ice on frozen ruts or ridges;Binary;0
+depos_379.0;int64;Contamination rime on ice on frozen ruts or ridges;Binary;0
+depos_479.0;int64;Contamination dry snow on ice on frozen ruts or ridges;Binary;0
+depos_579.0;int64;Contamination wet snow on ice on frozen ruts or ridges;Binary;0
+depos_679.0;int64;Contimation slush on ice on frozen ruts or ridges;Binary;0
+oeye_0_0.0;int64;No precipitation;Binary;0
+oeye_0_1.0;int64;Rain;Binary;0
+oeye_0_2.0;int64;Snow;Binary;0
+oeye_0_3.0;int64;Sleet;Binary;0
+oeye_0_4.0;int64;Drifting snow;Binary;0
+oeye_0_5.0;int64;Unknown precipitation;Binary;0
+oeye_0_6.0;int64;General precipitation;Binary;0
+oeye_0_7.0;int64;Freezing rain/drizzle;Binary;0
+oeye_0_8.0;int64;Fog;Binary;0
+oeye_0_9.0;int64;Freezing fog;Binary;0
+oeye_0_10.0;int64;Mist;Binary;0
+oeye_3hour_0.0;int64;No precipitation;Binary;3
+oeye_3hour_1.0;int64;Rain;Binary;3
+oeye_3hour_2.0;int64;Snow;Binary;3
+oeye_3hour_3.0;int64;Sleet;Binary;3
+oeye_3hour_4.0;int64;Drifting snow;Binary;3
+oeye_3hour_5.0;int64;Unknown precipitation;Binary;3
+oeye_3hour_6.0;int64;General precipitation;Binary;3
+oeye_3hour_7.0;int64;Freezing rain/drizzle;Binary;3
+oeye_3hour_8.0;int64;Fog;Binary;3
+oeye_3hour_9.0;int64;Freezing fog;Binary;3
+oeye_3hour_10.0;int64;Mist;Binary;3
+max02_in;float64;Maximum wind speed last 2 minutes;m/s;0
+max10_in;float64;Maximum wind speed last 10 minutes;m/s;0
+spe02_in;float64;Mean wind speed last 2 minutes;m/s;0
+spe10_in;float64;Mean wind speed last 10 minutes;m/s;0
+al_calc02_in;float64;Along wind;m/s;0
+tmp_abs;float64;Absolute air temperature;Celsius;0
+rwy_abs;float64;Absolute runway temperature;Celsius;0
+across_wind_abs;float64;Absolute across wind;m/s;0
